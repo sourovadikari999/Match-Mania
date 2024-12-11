@@ -183,12 +183,6 @@ const startGame = () => {
   bestTimeDisplay = document.getElementById('bestTimeDisplay');
 };
 
-// Initialize the game
-const initGame = () => createRulesPopup();
-
-initGame(); // Start initialization
-
-
 // Function to create the footer dynamically
 const createFooter = () => {
   const currentYear = new Date().getFullYear(); // Get current year
@@ -216,5 +210,10 @@ const createFooter = () => {
   footerContainer.innerHTML = footerContent;
 };
 
-// Call the function to create the footer
-createFooter();
+// Initialize the game
+const initGame = () => {
+  createRulesPopup();
+  createFooter();
+}
+
+initGame(); // Start initialization
