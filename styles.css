@@ -422,4 +422,7 @@ footer {
   .social-links {
     width: 80%;
   }
+  footer{
+    padding: 1.5rem;
+  }
 }
