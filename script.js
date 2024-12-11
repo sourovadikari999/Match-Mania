@@ -185,9 +185,9 @@ const createFooter = () => {
         </div>
       </div>
       <div class="social-links">
-        <a href="#" aria-label="Facebook">Facebook</a>
-        <a href="#" aria-label="Instagram">Instagram</a>
-        <a href="#" aria-label="Whatsapp">Whatsapp</a>
+        <a href="https://www.facebook.com/URSourovAdikari?mibextid=ZbWKwL" aria-label="Facebook">Facebook</a>
+        <a href="https://www.instagram.com/sourovadikariofficial" aria-label="Instagram">Instagram</a>
+        <a href="https://wa.me/message/WT5L2MLYGRWKD1" aria-label="Whatsapp">Whatsapp</a>
       </div>
     </div>
     <div class="copyright">
@@ -203,8 +203,6 @@ const initGame = () => {
   startTimer();
   gameState.timerDisplay = document.getElementById('timerDisplay');
   gameState.bestTimeDisplay = document.getElementById('bestTimeDisplay');
-  // Uncomment to log matrix format:
-  // logMatrixFormat();
 };
 
 // Start the app
